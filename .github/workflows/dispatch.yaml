@@ -9,7 +9,7 @@ on:
         type: string
 jobs:
   call_reusable_workflow:
-    uses: hylswind/reusable-workflow/blob/main/.github/workflows/reusable.yaml@f91611ce02646519164ef964030b8c858d26e68d
+    uses: hylswind/reusable-workflow/.github/workflows/reusable.yaml@f91611ce02646519164ef964030b8c858d26e68d
     with:
       name: ${{ inputs.name }}
       version: ${{ inputs.version }}
